@@ -70,7 +70,7 @@
         <div class="row align-items-center gy-5">
             <div class="col-lg-6">
                 <div class="position-relative">
-                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tentang Koperasi" class="img-fluid rounded-4 shadow-lg">
+                    <img src="<?= BASE_URL ?>/assets/img/about.png" alt="Tentang Koperasi" class="img-fluid rounded-4 shadow-lg">
                     <div class="position-absolute bottom-0 end-0 bg-secondary text-white p-4 rounded-4 m-n4 shadow d-none d-md-block">
                         <h4 class="fw-bold mb-0">100%</h4>
                         <p class="mb-0">Prinsip Syariah</p>
