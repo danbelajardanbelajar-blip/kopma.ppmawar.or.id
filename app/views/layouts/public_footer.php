@@ -1,8 +1,10 @@
-    </main>
+</main>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row gy-4">
+  <!-- Footer -->
+<footer class="footer position-relative overflow-hidden fade-in-section">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-pattern" style="opacity: 0.05;"></div>
+    <div class="container position-relative" style="z-index: 1;">
+        <div class="row gy-5">
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-4 d-flex align-items-center">
                         <img src="<?= BASE_URL ?>/assets/img/favicon.png" alt="Logo" class="me-2 rounded-circle" style="width: 24px; height: 24px; object-fit: cover;"> Kopma Mawar
@@ -14,8 +16,8 @@
                         <a href="#"><i class="fa-brands fa-youtube fs-4"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <h5 class="text-white mb-4">Link Cepat</h5>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4 fw-bold">Perusahaan</h5>
                     <ul class="list-unstyled d-flex flex-column gap-2">
                         <li><a href="<?= BASE_URL ?>/profile"><i class="fa-solid fa-chevron-right me-2 text-secondary"></i>Tentang Kami</a></li>
                         <li><a href="<?= BASE_URL ?>/product/savings"><i class="fa-solid fa-chevron-right me-2 text-secondary"></i>Simpanan Syariah</a></li>
@@ -25,7 +27,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h5 class="text-white mb-4">Kontak Kami</h5>
+                    <h5 class="text-white mb-4 fw-bold">Kontak Kami</h5>
                     <ul class="list-unstyled text-light opacity-75 d-flex flex-column gap-3">
                         <li class="d-flex"><i class="fa-solid fa-location-dot mt-1 me-3 text-secondary"></i> PP. Matholi'ul Anwar Dusun Simo RT 016 RW 005 Desa Sungelebak Kecamatan Karanggeneng Kabupaten Lamongan</li>
                         <li class="d-flex"><i class="fa-solid fa-phone mt-1 me-3 text-secondary"></i> 085655352223</li>

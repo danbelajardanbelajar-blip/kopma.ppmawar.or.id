@@ -53,15 +53,15 @@
 
 <div class="row g-4">
     <div class="col-md-12">
-        <div class="card">
-            <div class="card-header d-flex justify-content-between align-items-center">
-                <span>Pendaftar Anggota Baru</span>
-                <a href="<?= BASE_URL ?>/admin-member" class="btn btn-sm btn-outline-primary">Lihat Semua</a>
+        <div class="card-modern">
+            <div class="card-header bg-white border-0 pt-4 pb-0 px-4 d-flex justify-content-between align-items-center">
+                <span class="fw-bold">Pendaftar Anggota Baru</span>
+                <a href="<?= BASE_URL ?>/admin-member" class="btn btn-sm btn-outline-primary rounded-pill">Lihat Semua</a>
             </div>
-            <div class="card-body p-0">
+            <div class="card-body p-4">
                 <div class="table-responsive">
-                    <table class="table table-hover mb-0">
-                        <thead class="table-light">
+                    <table class="table-modern">
+                        <thead>
                             <tr>
                                 <th class="ps-4">No. Anggota</th>
                                 <th>Nama Lengkap</th>
@@ -79,7 +79,7 @@
                                     <td class="ps-4"><?= $m['member_code'] ?></td>
                                     <td class="fw-medium"><?= $m['name'] ?></td>
                                     <td><?= $m['email'] ?></td>
-                                    <td><span class="badge <?= $m['status'] == 'active' ? 'bg-success' : 'bg-warning' ?>"><?= $m['status'] ?></span></td>
+                                    <td><span class="badge-status <?= $m['status'] == 'active' ? 'approved' : 'pending' ?>"><?= ucfirst($m['status']) ?></span></td>
                                     <td class="text-end pe-4">
                                         <a href="<?= BASE_URL ?>/admin-member/show/<?= $m['id'] ?>" class="btn btn-sm btn-light"><i class="fa-solid fa-eye"></i></a>
                                     </td>

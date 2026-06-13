@@ -8,24 +8,24 @@
             </div>
             
             <div class="col-lg-9">
-                <div class="card shadow-sm border-0 rounded-4 p-4 p-md-5 mb-4">
+                <div class="card-modern p-4 p-md-5 mb-4 border-0">
                     <div class="d-flex align-items-center justify-content-between mb-2">
                         <h3 class="fw-bold mb-0">Hai, <?= $member['name'] ?>!</h3>
-                        <span class="badge <?= $member['status'] == 'active' ? 'bg-success' : 'bg-warning' ?> fs-6"><?= ucfirst($member['status']) ?></span>
+                        <span class="badge-status <?= $member['status'] == 'active' ? 'approved' : 'pending' ?>"><?= ucfirst($member['status']) ?></span>
                     </div>
                     <p class="text-muted mb-0">No. Anggota: <strong class="text-dark"><?= $member['member_code'] ?></strong></p>
                 </div>
                 
                 <div class="row g-4 mb-4">
                     <div class="col-md-6">
-                        <div class="card shadow-sm border-0 rounded-4 p-4 h-100 bg-primary text-white overflow-hidden position-relative">
+                        <div class="card-modern p-4 h-100 bg-primary text-white overflow-hidden position-relative">
                             <i class="fa-solid fa-wallet position-absolute" style="font-size: 8rem; right: -20px; bottom: -20px; opacity: 0.1;"></i>
                             <h5 class="opacity-75 mb-3">Total Saldo Simpanan</h5>
                             <h2 class="fw-bold mb-0 display-6"><?= Helper::formatRupiah($total_savings) ?></h2>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card shadow-sm border-0 rounded-4 p-4 h-100 bg-secondary text-white overflow-hidden position-relative">
+                        <div class="card-modern p-4 h-100 bg-secondary text-white overflow-hidden position-relative">
                             <i class="fa-solid fa-hand-holding-dollar position-absolute" style="font-size: 8rem; right: -20px; bottom: -20px; opacity: 0.1;"></i>
                             <h5 class="opacity-75 mb-3">Pembiayaan Aktif</h5>
                             <h2 class="fw-bold mb-0 display-6"><?= count($active_financings) ?> <span class="fs-5 fw-normal">Kontrak</span></h2>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 
-                <div class="card shadow-sm border-0 rounded-4 mb-4">
+                <div class="card-modern mb-4">
                     <div class="card-header bg-white border-0 pt-4 pb-0 px-4">
                         <h5 class="fw-bold d-flex justify-content-between align-items-center">
                             Menu Cepat
@@ -63,14 +63,14 @@
                     </div>
                 </div>
                 
-                <div class="card shadow-sm border-0 rounded-4">
+                <div class="card-modern">
                     <div class="card-header bg-white border-bottom p-4">
                         <h5 class="fw-bold mb-0">Angsuran Mendatang</h5>
                     </div>
-                    <div class="card-body p-0">
+                    <div class="card-body p-4">
                         <div class="table-responsive">
-                            <table class="table table-hover align-middle mb-0">
-                                <thead class="table-light">
+                            <table class="table-modern">
+                                <thead>
                                     <tr>
                                         <th class="ps-4">Tenggat Waktu</th>
                                         <th>Produk</th>
@@ -94,7 +94,7 @@
                                             <td class="ps-4 fw-medium text-danger"><?= date('d M Y', strtotime($inst['due_date'])) ?></td>
                                             <td><?= $inst['product_name'] ?></td>
                                             <td class="fw-bold"><?= Helper::formatRupiah($inst['amount']) ?></td>
-                                            <td><span class="badge bg-warning text-dark">Belum Dibayar</span></td>
+                                            <td><span class="badge-status pending">Belum Dibayar</span></td>
                                         </tr>
                                         <?php endif; endforeach; ?>
                                         <?php if($count == 0): ?>

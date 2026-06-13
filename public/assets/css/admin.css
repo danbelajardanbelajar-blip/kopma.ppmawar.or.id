@@ -191,3 +191,66 @@ body {
         margin-left: 0;
     }
 }
+
+/* Modern Overhaul Admin */
+.card-modern {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+    background: #fff;
+    transition: transform 0.2s;
+}
+.card-modern:hover {
+    box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+}
+
+.table-modern {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+.table-modern thead th {
+    border: none;
+    background: transparent;
+    color: var(--gray);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+.table-modern tbody tr {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    border-radius: 8px;
+    background: #fff;
+}
+.table-modern tbody td {
+    border: none;
+    padding: 1rem;
+    vertical-align: middle;
+}
+.table-modern tbody td:first-child { border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
+.table-modern tbody td:last-child { border-top-right-radius: 8px; border-bottom-right-radius: 8px; }
+
+.badge-status {
+    padding: 0.5em 1em;
+    border-radius: 50rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+.badge-status.pending { background: rgba(201, 168, 76, 0.15); color: #b39543; }
+.badge-status.processing { background: rgba(23, 162, 184, 0.15); color: #17a2b8; }
+.badge-status.approved { background: rgba(27, 107, 58, 0.15); color: var(--primary); }
+.badge-status.rejected { background: rgba(220, 53, 69, 0.15); color: #dc3545; }
+
+.form-modern .form-control, .form-modern .form-select {
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    border: 1px solid #e0e0e0;
+    background-color: #fcfcfc;
+}
+.form-modern .form-control:focus, .form-modern .form-select:focus {
+    background-color: #fff;
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 3px rgba(27, 107, 58, 0.1);
+}
+

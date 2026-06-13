@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <div class="card shadow border-0 rounded-4 overflow-hidden">
+                <div class="card-modern border-0 overflow-hidden fade-in-section">
                     <div class="card-body p-4 p-md-5">
                         
                         <?php if($flash = Flash::get()): ?>
@@ -20,7 +20,7 @@
                         </div>
                         <?php endif; ?>
 
-                        <form action="<?= BASE_URL ?>/membership/store" method="POST">
+                        <form action="<?= BASE_URL ?>/membership/store" method="POST" class="form-modern">
                             <h4 class="fw-bold mb-4 border-bottom pb-2">Informasi Pribadi</h4>
                             
                             <div class="row g-3 mb-4">
@@ -63,7 +63,7 @@
                             </div>
                             
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-primary btn-lg rounded-pill">Ajukan Pendaftaran</button>
+                                <button type="submit" class="btn btn-primary btn-modern btn-lg w-100">Ajukan Pendaftaran</button>
                             </div>
                             
                             <div class="text-center mt-4">

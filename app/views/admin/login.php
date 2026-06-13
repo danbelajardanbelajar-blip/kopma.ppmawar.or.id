@@ -7,8 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { background-color: #0D3D22; font-family: 'Plus Jakarta Sans', sans-serif; }
-        .login-card { border-radius: 15px; box-shadow: 0 15px 35px rgba(0,0,0,0.2); }
+        body { background: linear-gradient(135deg, rgba(27,107,58,0.95) 0%, rgba(13,61,34,0.98) 100%), url('../img/images.jpg') center/cover no-repeat; font-family: 'Plus Jakarta Sans', sans-serif; position: relative; }
+        body::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(13, 61, 34, 0.85); z-index: -1; }
+        .login-card { border-radius: 1.5rem; box-shadow: 0 15px 35px rgba(0,0,0,0.3); background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        .form-control-modern { border-radius: 0.75rem; padding: 0.75rem 1rem; border: 1px solid #e0e0e0; background-color: #fcfcfc; transition: all 0.3s; }
+        .form-control-modern:focus { background-color: #fff; border-color: #1B6B3A; box-shadow: 0 0 0 4px rgba(27, 107, 58, 0.1); }
+        .btn-modern { border-radius: 50rem; padding: 0.6rem 1.5rem; font-weight: 600; letter-spacing: 0.5px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
     </style>
     <link rel="icon" type="image/png" href="<?= BASE_URL ?>/assets/img/favicon.png">
 </head>
@@ -34,13 +38,13 @@
                         <form action="<?= BASE_URL ?>/auth/authenticate" method="POST">
                             <div class="mb-3">
                                 <label class="form-label text-muted fw-medium">Email Admin</label>
-                                <input type="email" name="email" class="form-control form-control-lg bg-light" required>
+                                <input type="email" name="email" class="form-control form-control-modern" required>
                             </div>
                             <div class="mb-4">
                                 <label class="form-label text-muted fw-medium">Password</label>
-                                <input type="password" name="password" class="form-control form-control-lg bg-light" required>
+                                <input type="password" name="password" class="form-control form-control-modern" required>
                             </div>
-                            <button type="submit" class="btn btn-warning btn-lg w-100 fw-bold">Login Sekarang</button>
+                            <button type="submit" class="btn btn-warning btn-modern btn-lg w-100 text-dark">Login Sekarang</button>
                         </form>
                         
                         <div class="text-center mt-4">

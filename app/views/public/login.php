@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-5">
-                <div class="card shadow border-0 rounded-4 overflow-hidden">
+                <div class="card-modern border-0 overflow-hidden fade-in-section">
                     <div class="card-body p-5">
                         <div class="text-center mb-4">
                             <img src="<?= BASE_URL ?>/assets/img/favicon.png" alt="Logo" class="rounded-circle shadow-sm mb-2" style="width: 64px; height: 64px; object-fit: cover;">
@@ -18,7 +18,7 @@
                         </div>
                         <?php endif; ?>
 
-                        <form action="<?= BASE_URL ?>/auth/authenticate" method="POST">
+                        <form action="<?= BASE_URL ?>/auth/authenticate" method="POST" class="form-modern">
                             <div class="mb-3">
                                 <label class="form-label fw-medium">Email</label>
                                 <div class="input-group">
@@ -34,7 +34,7 @@
                                 </div>
                             </div>
                             <div class="d-grid mb-4">
-                                <button type="submit" class="btn btn-primary btn-lg rounded-pill">Masuk</button>
+                                <button type="submit" class="btn btn-primary btn-modern btn-lg w-100">Masuk</button>
                             </div>
                             <div class="text-center">
                                 <p class="text-muted mb-0">Belum menjadi anggota? <a href="<?= BASE_URL ?>/membership/register" class="text-secondary fw-bold text-decoration-none">Daftar sekarang</a></p>

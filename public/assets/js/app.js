@@ -68,8 +68,21 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(counters[0]);
     }
 
-    // SPA Navigation Logic (Simple Fetch)
-    /*
+    // Intersection Observer for Fade-In animations
+    const fadeObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                fadeObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in-section').forEach(el => {
+        fadeObserver.observe(el);
+    });
+
+    // SPA Navigation Logic
     const links = document.querySelectorAll('a.spa-link');
     const loader = document.getElementById('spa-loader');
     
@@ -91,6 +104,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     const oldContent = document.querySelector('main');
                     if(newContent && oldContent) {
                         oldContent.innerHTML = newContent.innerHTML;
+                        
+                        // Re-initialize animations for new content
+                        document.querySelectorAll('main .fade-in-section').forEach(el => {
+                            fadeObserver.observe(el);
+                        });
+                        if(typeof feather !== 'undefined') feather.replace();
                     }
                     
                     // Update title
@@ -108,7 +127,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
         });
     });
-    */
 });
 
 // Admin Sidebar Toggle

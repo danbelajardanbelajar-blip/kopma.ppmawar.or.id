@@ -16,7 +16,7 @@
 <body>
     <div id="spa-loader"></div>
 
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="<?= BASE_URL ?>/">
                 <img src="<?= BASE_URL ?>/assets/img/favicon.png" alt="Logo" class="me-2 rounded-circle" style="width: 32px; height: 32px; object-fit: cover;">
@@ -64,12 +64,13 @@
                         <a class="nav-link spa-link" href="<?= BASE_URL ?>/contact">Kontak</a>
                     </li>
                 </ul>
-                <div class="d-flex">
+                <div class="d-flex align-items-center gap-2">
+                    <a href="<?= BASE_URL ?>/contact" class="btn btn-outline-primary d-none d-lg-inline-block rounded-pill fw-medium"><i class="fa-solid fa-headset me-2"></i>Hubungi Kami</a>
                     <?php if(Auth::isLoggedIn()): ?>
-                        <a href="<?= Auth::isAdmin() ? BASE_URL.'/admin-dashboard' : BASE_URL.'/member-dashboard' ?>" class="btn btn-outline-primary spa-link me-2">Dashboard</a>
-                        <a href="<?= BASE_URL ?>/auth/logout" class="btn btn-primary">Logout</a>
+                        <a href="<?= Auth::isAdmin() ? BASE_URL.'/admin-dashboard' : BASE_URL.'/member-dashboard' ?>" class="btn btn-primary btn-modern spa-link"><i class="fa-solid fa-gauge me-2"></i>Dashboard</a>
                     <?php else: ?>
-                        <a href="<?= BASE_URL ?>/auth/login" class="btn btn-primary spa-link"><i class="fa-solid fa-user me-2"></i>Login Anggota</a>
+                        <a href="<?= BASE_URL ?>/membership/register" class="btn btn-secondary btn-modern d-none d-lg-inline-block">Daftar</a>
+                        <a href="<?= BASE_URL ?>/auth/login" class="btn btn-primary btn-modern spa-link"><i class="fa-solid fa-user me-1"></i> Login</a>
                     <?php endif; ?>
                 </div>
             </div>
