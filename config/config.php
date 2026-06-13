@@ -6,7 +6,10 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 // App
-define('BASE_URL', 'http://localhost/kopma.ppmawar.or.id/public');
+$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
+$host = $_SERVER['HTTP_HOST'];
+$script_dirname = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME']));
+define('BASE_URL', rtrim($protocol . '://' . $host . $script_dirname, '/'));
 define('APP_NAME', 'Koperasi Mawar');
 define('APP_VERSION', '1.0.0');
 
