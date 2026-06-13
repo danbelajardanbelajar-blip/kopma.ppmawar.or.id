@@ -18,23 +18,23 @@
                             <tbody>
                                 <tr>
                                     <th width="40%" class="py-3 text-muted">Badan Hukum</th>
-                                    <td class="py-3 fw-medium">No. 1234/BH/M.KUKM.2/XI/2010</td>
+                                    <td class="py-3 fw-medium">518/BH/XVI.10/26/413.110/2008</td>
                                 </tr>
                                 <tr>
                                     <th class="py-3 text-muted">Tanggal Pengesahan</th>
-                                    <td class="py-3 fw-medium">10 November 2010</td>
+                                    <td class="py-3 fw-medium">27 Februari 2008</td>
                                 </tr>
                                 <tr>
-                                    <th class="py-3 text-muted">Nomor Induk Berusaha (NIB)</th>
-                                    <td class="py-3 fw-medium">1234567890123</td>
+                                    <th class="py-3 text-muted">Perubahan Anggaran Dasar (PAD)</th>
+                                    <td class="py-3 fw-medium">AHU-0000042.AH.01.38.TAHUN 2023</td>
                                 </tr>
                                 <tr>
                                     <th class="py-3 text-muted">NPWP</th>
-                                    <td class="py-3 fw-medium">01.234.567.8-091.000</td>
+                                    <td class="py-3 fw-medium">31.780.384.9-645.000</td>
                                 </tr>
                                 <tr>
-                                    <th class="py-3 text-muted">Izin Usaha Simpan Pinjam (KSPPS)</th>
-                                    <td class="py-3 fw-medium">No. 567/SISP/DEP.1/2011</td>
+                                    <th class="py-3 text-muted">Tingkat Skala Usaha</th>
+                                    <td class="py-3 fw-medium">Koperasi Tingkat Provinsi Jawa Timur</td>
                                 </tr>
                             </tbody>
                         </table>

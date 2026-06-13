@@ -22,7 +22,7 @@
                             <div class="mx-auto mb-3 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 100px; height: 100px;">
                                 <i class="fa-solid fa-user-graduate text-primary" style="font-size: 2.5rem;"></i>
                             </div>
-                            <h5 class="fw-bold mb-1">Dr. K.H. Abdul Rahman, Lc., M.A.</h5>
+                            <h5 class="fw-bold mb-1">Dr. Zainul Hakim, SHI., MHI.</h5>
                             <p class="text-secondary fw-medium mb-0">Ketua DPS</p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                             <div class="mx-auto mb-3 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 100px; height: 100px;">
                                 <i class="fa-solid fa-user-graduate text-primary" style="font-size: 2.5rem;"></i>
                             </div>
-                            <h5 class="fw-bold mb-1">Ust. M. Yusuf, Lc., M.Sy.</h5>
+                            <h5 class="fw-bold mb-1">Dr. Muhid, M.Ag.</h5>
                             <p class="text-secondary fw-medium mb-0">Anggota DPS</p>
                         </div>
                     </div>

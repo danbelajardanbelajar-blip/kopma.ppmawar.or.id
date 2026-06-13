@@ -42,21 +42,21 @@
             <div class="col-md-3 col-6">
                 <div class="stat-card">
                     <i class="fa-solid fa-wallet icon"></i>
-                    <h3 class="counter" data-target="50">0</h3>
+                    <h3 class="counter" data-target="27">0</h3>
                     <p class="mb-0 text-muted">Miliar Aset</p>
                 </div>
             </div>
             <div class="col-md-3 col-6">
                 <div class="stat-card">
                     <i class="fa-solid fa-handshake icon"></i>
-                    <h3 class="counter" data-target="850">0</h3>
-                    <p class="mb-0 text-muted">Pembiayaan Aktif</p>
+                    <h3 class="counter" data-target="10">0</h3>
+                    <p class="mb-0 text-muted">Miliar Pembiayaan Aktif</p>
                 </div>
             </div>
             <div class="col-md-3 col-6">
                 <div class="stat-card">
                     <i class="fa-solid fa-award icon"></i>
-                    <h3 class="counter" data-target="15">0</h3>
+                    <h3 class="counter" data-target="17">0</h3>
                     <p class="mb-0 text-muted">Tahun Pengalaman</p>
                 </div>
             </div>
