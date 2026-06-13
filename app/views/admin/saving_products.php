@@ -2,6 +2,7 @@
 
 <div class="d-flex justify-content-between align-items-center mb-4">
     <h3 class="fw-bold mb-0">Produk Simpanan</h3>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addModal"><i class="fa-solid fa-plus me-2"></i>Tambah Produk</button>
 </div>
 
 <div class="card shadow-sm border-0">
@@ -36,7 +37,53 @@
                                 <?php endif; ?>
                             </td>
                             <td class="text-end pe-4">
-                                <a href="#" class="btn btn-sm btn-primary"><i class="fa-solid fa-edit"></i></a>
+                                <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#editModal<?= $p['id'] ?>"><i class="fa-solid fa-edit"></i></button>
+
+                                <!-- Edit Modal -->
+                                <div class="modal fade text-start" id="editModal<?= $p['id'] ?>" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <form action="<?= BASE_URL ?>/admin-saving-product/update/<?= $p['id'] ?>" method="POST" class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Edit Produk Simpanan</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Nama Produk</label>
+                                                    <input type="text" name="name" class="form-control" value="<?= $p['name'] ?>" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Jenis</label>
+                                                    <input type="text" name="type" class="form-control" value="<?= $p['type'] ?>" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Min. Setoran</label>
+                                                    <input type="number" name="min_amount" class="form-control" value="<?= $p['min_amount'] ?>" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Bagi Hasil/Margin (%)</label>
+                                                    <input type="number" step="0.01" name="margin_rate" class="form-control" value="<?= $p['margin_rate'] ?>" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Deskripsi</label>
+                                                    <textarea name="description" class="form-control" rows="2" required><?= $p['description'] ?></textarea>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Syarat & Ketentuan</label>
+                                                    <textarea name="terms" class="form-control" rows="2" required><?= $p['terms'] ?></textarea>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" name="is_active" value="1" <?= $p['is_active'] ? 'checked' : '' ?>>
+                                                    <label class="form-check-label">Aktif</label>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                                <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </td>
                         </tr>
                         <?php endforeach; ?>
@@ -44,6 +91,52 @@
                 </tbody>
             </table>
         </div>
+    </div>
+</div>
+
+<!-- Add Modal -->
+<div class="modal fade" id="addModal" tabindex="-1">
+    <div class="modal-dialog">
+        <form action="<?= BASE_URL ?>/admin-saving-product/store" method="POST" class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Tambah Produk Simpanan</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label class="form-label">Nama Produk</label>
+                    <input type="text" name="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Jenis</label>
+                    <input type="text" name="type" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Min. Setoran</label>
+                    <input type="number" name="min_amount" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Bagi Hasil/Margin (%)</label>
+                    <input type="number" step="0.01" name="margin_rate" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Deskripsi</label>
+                    <textarea name="description" class="form-control" rows="2" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Syarat & Ketentuan</label>
+                    <textarea name="terms" class="form-control" rows="2" required></textarea>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" name="is_active" value="1" checked>
+                    <label class="form-check-label">Aktif</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
+            </div>
+        </form>
     </div>
 </div>
 

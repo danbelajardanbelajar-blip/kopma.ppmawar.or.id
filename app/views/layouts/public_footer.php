@@ -11,9 +11,9 @@
                     </h4>
                     <p class="text-light opacity-75">Koperasi Simpan Pinjam dan Pembiayaan Syariah Matholi'ul Anwar Jawa Timur hadir untuk memberdayakan ekonomi umat dengan prinsip-prinsip syariah yang adil dan transparan.</p>
                     <div class="d-flex gap-3 mt-4">
-                        <a href="#"><i class="fa-brands fa-facebook fs-4"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram fs-4"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube fs-4"></i></a>
+                        <a href="https://www.facebook.com/ksppsmawarjatim/" target="_blank"><i class="fa-brands fa-facebook fs-4"></i></a>
+                        <a href="https://www.instagram.com/mawarkoperasi/" target="_blank"><i class="fa-brands fa-instagram fs-4"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube fs-4"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">

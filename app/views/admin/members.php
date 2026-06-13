@@ -49,7 +49,7 @@
                             </td>
                             <td class="text-end pe-4">
                                 <a href="<?= BASE_URL ?>/admin-member/show/<?= $m['id'] ?>" class="btn btn-sm btn-info text-white" title="Detail"><i class="fa-solid fa-eye"></i></a>
-                                <a href="#" class="btn btn-sm btn-primary" title="Edit"><i class="fa-solid fa-edit"></i></a>
+                                <a href="javascript:void(0)" onclick="alert('Fitur edit anggota sedang dalam pengembangan.')" class="btn btn-sm btn-primary" title="Edit"><i class="fa-solid fa-edit"></i></a>
                             </td>
                         </tr>
                         <?php endforeach; ?>
