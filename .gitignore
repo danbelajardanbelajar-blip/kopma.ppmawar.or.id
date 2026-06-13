@@ -1,0 +1,28 @@
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor Folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Uploaded Files
+public/assets/img/uploads/*
+!public/assets/img/uploads/.gitkeep
+
+# Python cache / byte-compiled files (if running scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary or Cache Directories (If added in the future)
+cache/
+logs/
+*.log
+
+# Vendor Directory (If using Composer in the future)
+vendor/
