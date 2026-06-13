@@ -10,6 +10,7 @@
         body { background-color: #0D3D22; font-family: 'Plus Jakarta Sans', sans-serif; }
         .login-card { border-radius: 15px; box-shadow: 0 15px 35px rgba(0,0,0,0.2); }
     </style>
+    <link rel="icon" type="image/png" href="<?= BASE_URL ?>/assets/img/favicon.png">
 </head>
 <body class="d-flex align-items-center justify-content-center vh-100">
 
@@ -19,7 +20,7 @@
                 <div class="card login-card border-0 overflow-hidden">
                     <div class="card-body p-5">
                         <div class="text-center mb-4">
-                            <i class="fa-solid fa-shield-halved text-warning mb-3" style="font-size: 3rem;"></i>
+                            <img src="<?= BASE_URL ?>/assets/img/favicon.png" alt="Logo" class="rounded-circle shadow-sm mb-3" style="width: 64px; height: 64px; object-fit: cover;">
                             <h3 class="fw-bold text-dark">Admin Panel</h3>
                             <p class="text-muted">Masuk untuk mengelola sistem Koperasi</p>
                         </div>
