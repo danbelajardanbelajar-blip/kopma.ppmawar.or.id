@@ -23,8 +23,11 @@ WHERE id = 1;
 
 -- 3. Matikan pengecekan Foreign Key sementara, lalu Kosongkan data produk lama
 SET FOREIGN_KEY_CHECKS = 0;
-TRUNCATE TABLE savings_products;
-TRUNCATE TABLE financing_products;
+DELETE FROM savings_products;
+ALTER TABLE savings_products AUTO_INCREMENT = 1;
+
+DELETE FROM financing_products;
+ALTER TABLE financing_products AUTO_INCREMENT = 1;
 SET FOREIGN_KEY_CHECKS = 1;
 
 -- 4. Masukkan data Produk Simpanan terbaru
