@@ -6,7 +6,7 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 // App
-define('BASE_URL', 'http://localhost/koperasi-mawar/public');
+define('BASE_URL', 'http://localhost/kopma.ppmawar.or.id/public');
 define('APP_NAME', 'Koperasi Mawar');
 define('APP_VERSION', '1.0.0');
 
