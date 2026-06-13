@@ -43,7 +43,7 @@
     <button id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- App JS -->
     <script src="<?= BASE_URL ?>/assets/js/app.js"></script>
 </body>
