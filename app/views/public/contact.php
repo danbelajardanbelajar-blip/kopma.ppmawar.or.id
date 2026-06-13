@@ -20,7 +20,7 @@
                             </div>
                             <div>
                                 <h6 class="fw-bold mb-1 opacity-75">Alamat Kantor</h6>
-                                <p class="mb-0"><?= $contact['address'] ?? 'PP. Matholi''ul Anwar Dusun Simo RT 016 RW 005 Desa Sungelebak Kecamatan Karanggeneng Kabupaten Lamongan' ?></p>
+                                <p class="mb-0"><?= $contact['address'] ?? 'PP. Matholi\'ul Anwar Dusun Simo RT 016 RW 005 Desa Sungelebak Kecamatan Karanggeneng Kabupaten Lamongan' ?></p>
                             </div>
                         </li>
                         <li class="d-flex align-items-start">
