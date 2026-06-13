@@ -186,8 +186,8 @@ CREATE TABLE messages (
 -- SEED DATA
 -- Admin pass: admin123, Member pass: anggota123
 INSERT INTO users (name, email, password, role, status, created_at, updated_at) VALUES 
-('Admin Koperasi', 'admin@kopma.ppmawar.or.id', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin', 'active', NOW(), NOW()),
-('Ahmad Anggota', 'anggota@kopma.ppmawar.or.id', '$2y$10$TKh8H1.PkoxRs5M37kN2OubNNJa4XxW8r.mX3E9N2YFx0oiG4UHq6', 'member', 'active', NOW(), NOW());
+('Admin Koperasi', 'admin@kopma.ppmawar.or.id', '$2y$10$oIF7qjywCm9zfbpfZpf6RuFCh6qLScooZ1Ao9wNfnwr3dPjwm0PIa', 'admin', 'active', NOW(), NOW()),
+('Ahmad Anggota', 'anggota@kopma.ppmawar.or.id', '$2y$10$OEbTkv6KERIWOvNRdkSKU.erKBdIovqCwXKJPFHeVq2wI/sv3xw8G', 'member', 'active', NOW(), NOW());
 
 INSERT INTO members (user_id, member_code, nik, phone, address, join_date, status, created_at) VALUES
 (2, 'ANG-2024-0001', '3174000000000001', '08123456789', 'Jl. Mawar Raya No 123', '2024-01-01', 'active', NOW());
