@@ -21,9 +21,11 @@ UPDATE contacts SET
     wa_number = '085655352223'
 WHERE id = 1;
 
--- 3. Kosongkan data produk lama agar tidak duplikat jika dieksekusi berkali-kali
+-- 3. Matikan pengecekan Foreign Key sementara, lalu Kosongkan data produk lama
+SET FOREIGN_KEY_CHECKS = 0;
 TRUNCATE TABLE savings_products;
 TRUNCATE TABLE financing_products;
+SET FOREIGN_KEY_CHECKS = 1;
 
 -- 4. Masukkan data Produk Simpanan terbaru
 INSERT INTO savings_products (name, type, description, min_amount, margin_rate, terms, created_at) VALUES
