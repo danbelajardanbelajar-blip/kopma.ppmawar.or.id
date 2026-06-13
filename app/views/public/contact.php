@@ -20,7 +20,7 @@
                             </div>
                             <div>
                                 <h6 class="fw-bold mb-1 opacity-75">Alamat Kantor</h6>
-                                <p class="mb-0"><?= $contact['address'] ?? 'Jl. Mawar Raya No. 1, Jakarta Selatan' ?></p>
+                                <p class="mb-0"><?= $contact['address'] ?? 'PP. Matholi''ul Anwar Dusun Simo RT 016 RW 005 Desa Sungelebak Kecamatan Karanggeneng Kabupaten Lamongan' ?></p>
                             </div>
                         </li>
                         <li class="d-flex align-items-start">
@@ -29,7 +29,7 @@
                             </div>
                             <div>
                                 <h6 class="fw-bold mb-1 opacity-75">Telepon</h6>
-                                <p class="mb-0"><?= $contact['phone'] ?? '021-1234567' ?></p>
+                                <p class="mb-0"><?= $contact['phone'] ?? '085655352223' ?></p>
                             </div>
                         </li>
                         <li class="d-flex align-items-start">
@@ -38,7 +38,7 @@
                             </div>
                             <div>
                                 <h6 class="fw-bold mb-1 opacity-75">WhatsApp</h6>
-                                <p class="mb-0"><?= $contact['wa_number'] ?? '081234567890' ?></p>
+                                <p class="mb-0"><?= $contact['wa_number'] ?? '085655352223' ?></p>
                             </div>
                         </li>
                         <li class="d-flex align-items-start">
@@ -47,7 +47,7 @@
                             </div>
                             <div>
                                 <h6 class="fw-bold mb-1 opacity-75">Email</h6>
-                                <p class="mb-0"><?= $contact['email'] ?? 'info@kopma.ppmawar.or.id' ?></p>
+                                <p class="mb-0"><?= $contact['email'] ?? 'kjksMawar@gmail.com' ?></p>
                             </div>
                         </li>
                         <li class="d-flex align-items-start">

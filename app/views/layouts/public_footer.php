@@ -7,7 +7,7 @@
                     <h4 class="text-white mb-4 d-flex align-items-center">
                         <i class="fa-solid fa-leaf text-secondary me-2"></i> Kopma Mawar
                     </h4>
-                    <p class="text-light opacity-75">Koperasi Syariah Mawar hadir untuk memberdayakan ekonomi umat dengan prinsip-prinsip syariah yang adil dan transparan.</p>
+                    <p class="text-light opacity-75">Koperasi Simpan Pinjam dan Pembiayaan Syariah Matholi'ul Anwar Jawa Timur hadir untuk memberdayakan ekonomi umat dengan prinsip-prinsip syariah yang adil dan transparan.</p>
                     <div class="d-flex gap-3 mt-4">
                         <a href="#"><i class="fa-brands fa-facebook fs-4"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram fs-4"></i></a>
@@ -27,10 +27,10 @@
                 <div class="col-lg-4 col-md-6">
                     <h5 class="text-white mb-4">Kontak Kami</h5>
                     <ul class="list-unstyled text-light opacity-75 d-flex flex-column gap-3">
-                        <li class="d-flex"><i class="fa-solid fa-location-dot mt-1 me-3 text-secondary"></i> Jl. Mawar Raya No. 1, Jakarta Selatan</li>
-                        <li class="d-flex"><i class="fa-solid fa-phone mt-1 me-3 text-secondary"></i> 021-1234567</li>
-                        <li class="d-flex"><i class="fa-brands fa-whatsapp mt-1 me-3 text-secondary"></i> 0812-3456-7890</li>
-                        <li class="d-flex"><i class="fa-solid fa-envelope mt-1 me-3 text-secondary"></i> info@kopma.ppmawar.or.id</li>
+                        <li class="d-flex"><i class="fa-solid fa-location-dot mt-1 me-3 text-secondary"></i> PP. Matholi'ul Anwar Dusun Simo RT 016 RW 005 Desa Sungelebak Kecamatan Karanggeneng Kabupaten Lamongan</li>
+                        <li class="d-flex"><i class="fa-solid fa-phone mt-1 me-3 text-secondary"></i> 085655352223</li>
+                        <li class="d-flex"><i class="fa-brands fa-whatsapp mt-1 me-3 text-secondary"></i> 085655352223</li>
+                        <li class="d-flex"><i class="fa-solid fa-envelope mt-1 me-3 text-secondary"></i> kjksMawar@gmail.com</li>
                     </ul>
                 </div>
             </div>
