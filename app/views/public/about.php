@@ -40,7 +40,7 @@
                                 <i class="fa-solid fa-location-dot text-primary fs-3 me-3"></i>
                                 <div>
                                     <h6 class="mb-0 text-muted">Lokasi</h6>
-                                    <h5 class="mb-0 fw-bold">Jakarta Selatan</h5>
+                                    <h5 class="mb-0 fw-bold">Lamongan, Jawa Timur</h5>
                                 </div>
                             </div>
                         </div>

@@ -45,6 +45,73 @@
                 </div>
             </div>
         </div>
+        <h2 class="section-title text-center mt-5 pt-4 mb-5">Pengawas Koperasi</h2>
+        <div class="row justify-content-center g-4">
+            <!-- Koordinator Pengawas -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4 text-center p-4 h-100 card-hover-lift">
+                    <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
+                        <i class="fa-solid fa-user-shield text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-1">KH. Ahmad Taufiq</h4>
+                    <p class="text-secondary fw-medium mb-3">Koordinator Pengawas</p>
+                </div>
+            </div>
+            <!-- Anggota Pengawas -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4 text-center p-4 h-100 card-hover-lift">
+                    <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
+                        <i class="fa-solid fa-user-shield text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-1">Khotimah Suryani, Dra., M.Ag.</h4>
+                    <p class="text-secondary fw-medium mb-3">Anggota Pengawas</p>
+                </div>
+            </div>
+            <!-- Anggota Pengawas -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4 text-center p-4 h-100 card-hover-lift">
+                    <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
+                        <i class="fa-solid fa-user-shield text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-1">Fatkhur, S.Pd.</h4>
+                    <p class="text-secondary fw-medium mb-3">Anggota Pengawas</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title text-center mt-5 pt-4 mb-5">Pengelola Maal</h2>
+        <div class="row justify-content-center g-4">
+            <!-- Ketua Maal -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4 text-center p-4 h-100 card-hover-lift">
+                    <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
+                        <i class="fa-solid fa-hand-holding-heart text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-1">Muhammad Mudakir, M.PD.I.</h4>
+                    <p class="text-secondary fw-medium mb-3">Ketua Pengelola Maal</p>
+                </div>
+            </div>
+            <!-- Anggota Maal -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4 text-center p-4 h-100 card-hover-lift">
+                    <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
+                        <i class="fa-solid fa-hand-holding-heart text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-1">Zishwa Muhammad Jauhar Nafis</h4>
+                    <p class="text-secondary fw-medium mb-3">Anggota Pengelola Maal</p>
+                </div>
+            </div>
+            <!-- Anggota Maal -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4 text-center p-4 h-100 card-hover-lift">
+                    <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
+                        <i class="fa-solid fa-hand-holding-heart text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-1">Mohammad Yusuf</h4>
+                    <p class="text-secondary fw-medium mb-3">Anggota Pengelola Maal</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
