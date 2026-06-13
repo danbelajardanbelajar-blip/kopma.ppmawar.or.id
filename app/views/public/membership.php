@@ -29,8 +29,8 @@
                                 <li class="list-group-item py-3 px-0 border-light"><i class="fa-solid fa-check text-success me-3"></i>Warga Negara Indonesia yang cakap hukum.</li>
                                 <li class="list-group-item py-3 px-0 border-light"><i class="fa-solid fa-check text-success me-3"></i>Memiliki KTP/Identitas yang sah.</li>
                                 <li class="list-group-item py-3 px-0 border-light"><i class="fa-solid fa-check text-success me-3"></i>Menyetujui Anggaran Dasar (AD) dan Anggaran Rumah Tangga (ART) Koperasi.</li>
-                                <li class="list-group-item py-3 px-0 border-light"><i class="fa-solid fa-check text-success me-3"></i>Membayar Simpanan Pokok sebesar Rp 500.000 (sekali bayar).</li>
-                                <li class="list-group-item py-3 px-0 border-light"><i class="fa-solid fa-check text-success me-3"></i>Bersedia membayar Simpanan Wajib sebesar Rp 50.000 setiap bulan.</li>
+                                <li class="list-group-item py-3 px-0 border-light"><i class="fa-solid fa-check text-success me-3"></i>Membuka rekening simpanan dengan setoran awal minimal Rp 10.000 (perorangan) / Rp 25.000 (lembaga).</li>
+                                <li class="list-group-item py-3 px-0 border-light"><i class="fa-solid fa-check text-success me-3"></i>Bersedia melakukan setoran simpanan selanjutnya minimal Rp 1.000 (perorangan) / Rp 10.000 (lembaga).</li>
                             </ul>
                             <div class="text-center mt-5">
                                 <a href="<?= BASE_URL ?>/membership/register" class="btn btn-primary btn-lg rounded-pill px-5">Daftar Sekarang</a>

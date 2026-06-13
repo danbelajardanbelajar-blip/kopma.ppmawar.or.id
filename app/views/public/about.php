@@ -14,7 +14,7 @@
                 <div class="card shadow-sm border-0 rounded-4 p-md-5 p-4">
                     <div class="text-center mb-5">
                         <i class="fa-solid fa-building-columns text-primary mb-3" style="font-size: 4rem;"></i>
-                        <h2 class="fw-bold"><?= $profile['koperasi_name'] ?? 'Koperasi Mawar' ?></h2>
+                        <h2 class="fw-bold"><?= $profile['koperasi_name'] ?? 'KSPPS "MAWAR" JATIM (KOPMA)' ?></h2>
                         <p class="text-secondary fs-5"><?= $profile['tagline'] ?? '' ?></p>
                     </div>
                     

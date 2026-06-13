@@ -26,7 +26,7 @@
                                 </tr>
                                 <tr>
                                     <th class="py-3 text-muted">Perubahan Anggaran Dasar (PAD)</th>
-                                    <td class="py-3 fw-medium">AHU-0000042.AH.01.38.TAHUN 2023</td>
+                                    <td class="py-3 fw-medium">AHU-000042.AH.01.38 TAHUN 2022</td>
                                 </tr>
                                 <tr>
                                     <th class="py-3 text-muted">NPWP</th>

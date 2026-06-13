@@ -19,7 +19,7 @@
                         </div>
                         <div class="col-md-8 p-5 d-flex align-items-center">
                             <p class="fs-4 lh-base text-secondary-emphasis fst-italic mb-0">
-                                "<?= $profile['vision'] ?? 'Menjadi koperasi syariah terpercaya dan mandiri dalam membangun ekonomi umat yang berkeadilan dan sejahtera.' ?>"
+                                "<?= $profile['vision'] ?? 'Menjadi koperasi terbaik di Indonesia.' ?>"
                             </p>
                         </div>
                     </div>
@@ -33,10 +33,10 @@
                         </div>
                         <div class="col-md-8 p-5 order-md-1">
                             <div class="fs-5 lh-lg text-secondary-emphasis">
-                                <?= nl2br($profile['mission'] ?? "1. Memberikan layanan keuangan syariah yang aman, cepat, dan transparan.
-2. Memberdayakan usaha mikro, kecil, dan menengah (UMKM) anggota.
-3. Meningkatkan literasi keuangan syariah di kalangan anggota dan masyarakat.
-4. Membangun sinergi dan kolaborasi ekonomi ummat.") ?>
+                                <?= nl2br($profile['mission'] ?? "1. Menciptakan kesejahteraan bagi para anggota yang berkesinambungan.
+2. Berdaya guna sebagai mitra strategis dan terpercaya bagi anggota.
+3. Berkontribusi dalam perkembangan perkoperasian di Indonesia.
+4. Mengelola Koperasi dan unit usaha secara profesional dengan menerapkan prinsip \"good corporate governance\".") ?>
                             </div>
                         </div>
                     </div>
