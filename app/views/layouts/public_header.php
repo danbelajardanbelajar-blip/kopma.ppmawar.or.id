@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/main.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="<?= BASE_URL ?>/assets/img/favicon.png">
 </head>
 <body>
     <div id="spa-loader"></div>
@@ -17,7 +19,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="<?= BASE_URL ?>/">
-                <i class="fa-solid fa-leaf text-primary me-2 fs-3"></i>
+                <img src="<?= BASE_URL ?>/assets/img/favicon.png" alt="Logo" class="me-2 rounded-circle" style="width: 32px; height: 32px; object-fit: cover;">
                 <span class="fw-bold text-primary">Kopma <span class="text-secondary">Mawar</span></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

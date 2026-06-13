@@ -1,7 +1,7 @@
 <nav id="sidebar">
     <div class="sidebar-header">
         <h3 class="d-flex align-items-center justify-content-center gap-2">
-            <i class="fa-solid fa-leaf text-warning"></i> Admin Panel
+            <img src="<?= BASE_URL ?>/assets/img/favicon.png" alt="Logo" class="rounded-circle" style="width: 28px; height: 28px; object-fit: cover;"> Admin Panel
         </h3>
     </div>
     

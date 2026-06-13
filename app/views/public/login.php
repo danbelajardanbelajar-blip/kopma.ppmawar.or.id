@@ -7,7 +7,7 @@
                 <div class="card shadow border-0 rounded-4 overflow-hidden">
                     <div class="card-body p-5">
                         <div class="text-center mb-4">
-                            <i class="fa-solid fa-leaf text-primary" style="font-size: 3rem;"></i>
+                            <img src="<?= BASE_URL ?>/assets/img/favicon.png" alt="Logo" class="rounded-circle shadow-sm mb-2" style="width: 64px; height: 64px; object-fit: cover;">
                             <h3 class="fw-bold mt-3 text-primary-dark">Login Anggota</h3>
                             <p class="text-muted">Silakan masuk ke dashboard Anda</p>
                         </div>

@@ -5,7 +5,7 @@
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-4 d-flex align-items-center">
-                        <i class="fa-solid fa-leaf text-secondary me-2"></i> Kopma Mawar
+                        <img src="<?= BASE_URL ?>/assets/img/favicon.png" alt="Logo" class="me-2 rounded-circle" style="width: 24px; height: 24px; object-fit: cover;"> Kopma Mawar
                     </h4>
                     <p class="text-light opacity-75">Koperasi Simpan Pinjam dan Pembiayaan Syariah Matholi'ul Anwar Jawa Timur hadir untuk memberdayakan ekonomi umat dengan prinsip-prinsip syariah yang adil dan transparan.</p>
                     <div class="d-flex gap-3 mt-4">
