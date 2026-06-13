@@ -31,7 +31,7 @@
                                 <i class="fa-solid fa-calendar-check text-primary fs-3 me-3"></i>
                                 <div>
                                     <h6 class="mb-0 text-muted">Tahun Berdiri</h6>
-                                    <h5 class="mb-0 fw-bold"><?= $profile['founded_year'] ?? '-' ?></h5>
+                                    <h5 class="mb-0 fw-bold"><?= $profile['founded_year'] ?? '2008' ?></h5>
                                 </div>
                             </div>
                         </div>

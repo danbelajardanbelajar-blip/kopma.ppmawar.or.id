@@ -53,7 +53,7 @@
                     <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
                         <i class="fa-solid fa-user-shield text-primary" style="font-size: 3rem;"></i>
                     </div>
-                    <h4 class="fw-bold mb-1">KH. Ahmad Taufiq</h4>
+                    <h4 class="fw-bold mb-1">Drs. KH. Ahmad Taufiq</h4>
                     <p class="text-secondary fw-medium mb-3">Koordinator Pengawas</p>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                     <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
                         <i class="fa-solid fa-user-shield text-primary" style="font-size: 3rem;"></i>
                     </div>
-                    <h4 class="fw-bold mb-1">Khotimah Suryani, Dra., M.Ag.</h4>
+                    <h4 class="fw-bold mb-1">Dra. Khotimah Suryani</h4>
                     <p class="text-secondary fw-medium mb-3">Anggota Pengawas</p>
                 </div>
             </div>
@@ -75,6 +75,40 @@
                     </div>
                     <h4 class="fw-bold mb-1">Fatkhur, S.Pd.</h4>
                     <p class="text-secondary fw-medium mb-3">Anggota Pengawas</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title text-center mt-5 pt-4 mb-5">Dewan Pengawas Syariah (DPS)</h2>
+        <div class="row justify-content-center g-4">
+            <!-- Koordinator DPS -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4 text-center p-4 h-100 card-hover-lift">
+                    <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
+                        <i class="fa-solid fa-scale-balanced text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-1">Dr. Zainul Hakim, SHI., MHI.</h4>
+                    <p class="text-secondary fw-medium mb-3">Koordinator DPS</p>
+                </div>
+            </div>
+            <!-- Anggota DPS -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4 text-center p-4 h-100 card-hover-lift">
+                    <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
+                        <i class="fa-solid fa-scale-balanced text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-1">Dr. Muhid, M.Ag.</h4>
+                    <p class="text-secondary fw-medium mb-3">Anggota DPS</p>
+                </div>
+            </div>
+            <!-- Anggota DPS -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4 text-center p-4 h-100 card-hover-lift">
+                    <div class="mx-auto mb-4 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px;">
+                        <i class="fa-solid fa-scale-balanced text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-1">Joko Nursiyo, Lc., M.Ag.</h4>
+                    <p class="text-secondary fw-medium mb-3">Anggota DPS</p>
                 </div>
             </div>
         </div>

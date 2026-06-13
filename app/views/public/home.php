@@ -25,7 +25,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="card-modern p-4 text-center h-100">
                     <div class="text-secondary mb-3"><i class="fa-solid fa-users fs-1"></i></div>
-                    <h2 class="counter fw-bold text-primary mb-1" data-target="1500">0</h2>
+                    <h2 class="counter fw-bold text-primary mb-1" data-target="7475">0</h2>
                     <p class="text-muted small fw-medium mb-0">Anggota Aktif</p>
                 </div>
             </div>
@@ -46,7 +46,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="card-modern p-4 text-center h-100">
                     <div class="text-secondary mb-3"><i class="fa-solid fa-award fs-1"></i></div>
-                    <h2 class="counter fw-bold text-primary mb-1" data-target="17">0</h2>
+                    <h2 class="counter fw-bold text-primary mb-1" data-target="18">0</h2>
                     <p class="text-muted small fw-medium mb-0">Tahun Berdiri</p>
                 </div>
             </div>
@@ -252,8 +252,8 @@
             <?php 
             // Dummy array if no news provided via controller yet
             $home_news = [
-                ['title' => 'RAT Tahun Buku 2024 Berlangsung Sukses', 'date' => '20 Feb 2025', 'desc' => 'Rapat Anggota Tahunan Koperasi Syariah Matholi\'ul Anwar menetapkan pembagian SHU yang transparan.'],
-                ['title' => 'Peluncuran Layanan Digital Kopma Mawar', 'date' => '15 Jan 2025', 'desc' => 'Kini anggota dapat memantau simpanan dan pembiayaan melalui gawai cerdas masing-masing secara realtime.']
+                ['title' => 'RAT Tahun Buku 2025 Berlangsung Sukses', 'date' => '29 Jan 2026', 'desc' => 'Rapat Anggota Tahunan Koperasi Syariah Matholi\'ul Anwar ke-18 menetapkan pembagian SHU yang transparan.'],
+                ['title' => 'Peluncuran Layanan Digital Kopma Mawar', 'date' => '15 Jan 2026', 'desc' => 'Kini anggota dapat memantau simpanan dan pembiayaan melalui gawai cerdas masing-masing secara realtime.']
             ];
             foreach($home_news as $news):
             ?>
